@@ -1,0 +1,30 @@
+.form-auth
+{
+    min-width: 220px;
+    max-width: 490px;
+    width: 100%;
+    background: var(--background-block);
+}
+
+.title-nunito
+{
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+}
+
+.signup-input {
+    background-color: transparent !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.signup-input::placeholder {
+    color: gray !important;
+}
+
+.signup-input:focus,
+.signup-input:hover {
+    background-color: transparent !important;
+    color: white !important;
+    box-shadow: none !important;
+}

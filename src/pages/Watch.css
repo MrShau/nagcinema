@@ -1,0 +1,36 @@
+@media (max-width: 1199px) {
+    .chat {
+        height: 356px;
+        overflow: auto;
+    }
+    .watch-block {
+        height: 100%;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .chat {
+        height: 100vh;
+    }
+    .watch-block {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+.chat {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.chat-messages-block {
+    width: 100%;
+    height: 100%;
+}
+
+.input-message-block {
+    width: 100%;
+    margin-bottom: auto;
+}
